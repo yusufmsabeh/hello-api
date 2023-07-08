@@ -1,6 +1,7 @@
 name: build and push docker image
 on:
-  push: [dev]
+  push:
+    branches: [dev]
 
 jobs:
   push-to-registry:
